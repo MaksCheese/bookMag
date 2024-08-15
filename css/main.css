@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imgs/indexBackgr.webp");
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imgs/indexBackgr.webp");
+}
+
+input,
+textarea {
+    margin: 20px 20px;
+    width: 390px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    border-radius: 10px;
+    outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+p {
+    align-items: center;
+    font-weight: bold;
+    padding: 10px 35px;
+}
+
+a {
+    font-weight: bold;
+}
+
+.d-flex.search {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+
+table {
+    width: 1200px;
+    border-collapse: collapse;
+    border-spacing: 150px;
+    position: absolute;
+    right: 40px;
+    border: 1px solid black;
+}
+
+table td,
+tr {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table tr {
+    height: 35px;
+    font-style: italic;
+}
+
+
+.bookName {
+    width: 50px;
+}
+
+
+.hello {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: end;
+    margin-left: 50px;
+}
+
+.textAbout {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 150px;
+}
